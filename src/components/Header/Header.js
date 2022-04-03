@@ -6,7 +6,8 @@ const Header = () => {
     return (
         <div className='sticky top-0 bg-white px-12 py-8 flex justify-center md:justify-between'>
             <div className='hidden md:block'>
-                <Link to="/home" className='font-sans text-2xl font-bold '><span className='text-rose-600'>ROYAL</span> <span className='text-sky-600'>CAR-BD</span></Link>
+                <Link to="/home" className='font-sans text-2xl font-bold '><span className='text-rose-700'>ROYAL</span> <span className='text-sky-600'>CAR-BD</span></Link>
+                
             </div>
             
             <div className='flex gap-4 text-xl'>
