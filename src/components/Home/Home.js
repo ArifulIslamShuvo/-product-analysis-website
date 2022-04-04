@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
     const navigate = useNavigate()
     const [reviews, setReviews] = ReviewsData()
+    const sliceReviews = reviews.slice(0, 3);
     return (
         <div>
             <div className='mt-10 grid items-center w-full grid-cols-1 gap-12 mx-auto md:w-4/5 lg:grid-cols-2 xl:gap-32'>
@@ -22,14 +23,15 @@ const Home = () => {
             </div>
 
             <div>
-                <h2 className='text-3xl text-center font-bold py-20'> Customer Reviews</h2>
+                <h2 className='text-4xl text-center font-bold py-20 text-rose-700'> Customer Reviews</h2>
                 <div className='grid-cols-1 md:grid-cols-3 grid gap-4 mx-10'>
                     {
-                        reviews.map(review => <Review
+
+                        sliceReviews.map(review => <Review
                             key={review.id} review={review}></Review>)
                     }
                 </div>
-                <div onClick={()=> navigate(`/reviews`)} className='flex justify-center '>
+                <div onClick={() => navigate(`/reviews`)} className='flex justify-center '>
                     <div><button className='rounded-md h-10 w-40 bg-gradient-to-r text-white from-cyan-600 to-blue-500 mt-5 my-10'>See All Reviews</button></div>
                 </div>
             </div>
