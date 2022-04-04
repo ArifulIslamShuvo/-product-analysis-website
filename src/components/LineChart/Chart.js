@@ -42,7 +42,7 @@ const Chart = () => {
         }
     ]
     return (
-        <div className='grid items-center w-full grid-cols-1 gap-10 mx-auto md:w-4/5 lg:grid-cols-2 xl:gap-32'>
+        <div className='grid items-center w-full grid-cols-1 gap-8 mx-auto md:w-4/5 lg:grid-cols-2 xl:gap-25'>
             <div>
                 <h2 className='text-2xl font-bold text-orange-500 text-center p-5'>Line-Chart</h2>
                 <LineChart width={500} height={350} data={data}>
