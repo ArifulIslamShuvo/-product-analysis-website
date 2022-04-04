@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Review = (props) => {
-    const {id, name, review, rating, img} = props.review;
+const AllReviews = (props) => {
+    const {name, review, rating, img} = props.review;
     return (
         <div  className='rounded-2xl h-[250px] bg-sky-200 p-5 shadow-lg'>
             <div className='flex justify-center'>
@@ -16,4 +16,4 @@ const Review = (props) => {
     );
 };
 
-export default Review;
+export default AllReviews;
