@@ -15,7 +15,7 @@ const Home = () => {
                     <p className='mt-10 text-lg text-gray-600'>With its floating roofline, continuous waistline and lower accent graphics,
                         <br />
                         we haven't set out to reimagine the Range Rover—we've simply made it better.</p>
-                    <button className='rounded-md h-10 w-40 bg-gradient-to-r from-cyan-600 to-blue-500 mt-5'>Live demo</button>
+                    <button className='text-white text-xl rounded-md h-12 w-40 bg-gradient-to-r from-cyan-700 to-blue-500 mt-5'>Live demo</button>
                 </div>
                 <div>
                     <img className='p-5' src="https://www.ccarprice.com/products/Land-Rover-Range-Rover-Evoque-P250-SE-2020.jpg" alt="" />
@@ -32,7 +32,7 @@ const Home = () => {
                     }
                 </div>
                 <div onClick={() => navigate(`/reviews`)} className='flex justify-center '>
-                    <div><button className='rounded-md h-10 w-40 bg-gradient-to-r text-white from-cyan-600 to-blue-500 mt-5 my-10'>See All Reviews</button></div>
+                    <div><button className='rounded-md text-xl text-bold h-12 w-40 bg-gradient-to-r text-white from-cyan-600 to-blue-500  my-12'>See All Reviews</button></div>
                 </div>
             </div>
         </div>
