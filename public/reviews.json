@@ -2,7 +2,7 @@
     {
       "id": "623dff7618e170612d61d98d",
       "review": "Classic good looks",
-      "Rating ": "4.0",
+      "rating": " 4.0",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7njl1_cq_4eXYQlyaSvQM7eiionn-35yupg&usqp=CAU",
       "name": "Kaitlin Zhang"
       
@@ -10,14 +10,14 @@
     {
       "id": "623dff76bc371577d1b1b7cd",
       "review": "Outstanding outward visibility",
-      "Rating ": "4.5",
+      "rating": " 4.5",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuY2JRwNwDQxzXgQy_3oz-LWWfF1QmiSHncQ&usqp=CAU",
       "name": "Xidan-Khan"
     },
     {
       "id": "623dff760f2ba3fc1e77e3e9",
       "review": "Brisk acceleration when called upon",
-      "Rating ": "4.8",
+      "rating": " 4.8",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqZZYSsnncqDhroX4Ud9rgHCxpDeyLSN5PdG71BuDAk-ulL4CQCFtjL4lKVH26UIW9EOo&usqp=CAU",
       "name": "Lemon Bisshas"
     },
@@ -25,21 +25,21 @@
     {
       "id": "623dff760f2ba3fc1e77e3e91",
       "review": "Maddening touchscreen controls",
-      "Rating ": "3.6",
+      "rating": " 3.6",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFacn0pb12vsSRTPKRUDnxFrP8sj7st13r8A&usqp=CAU",
       "name": "Alomgir Foraji"
     },
     {
       "id": "623dff76021",
       "review": "Folding second row compromises first-row legroom",
-      "Rating ": "4.3",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgliTHwhQYq0yxmQZVHdB4zHheDYAeWSVhWEWczkKssMzKng-jih8URcsuE0c8fhH7rGM&usqp=CAU",
+      "rating": " 4.3",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Pa5XVOQeUpHJvlTpsceAQlONVmJU2onrZg&usqp=CAU",
       "name": "Kobir molla"
     },
     {
       "id": "623dff760f2ba3fc1e77e3e94",
       "review": "Decent fuel economy (diesel)",
-      "Rating ": "4.0",
+      "rating": " 4.0",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROjhf8sII9vcd0lTn_zFdi25zae0qRVOm1Z2CD9Lk1Jc8WWv3Ua80yGbDkWM86eba_jRA&usqp=CAU",
       "name": "Samsul Mridha"
     }
